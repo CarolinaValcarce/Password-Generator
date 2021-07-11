@@ -1,0 +1,58 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+	background: rgb(0,36,26);
+	background: linear-gradient(90deg, rgba(0,36,26,1) 27%, rgba(9,121,99,0.9643207624846813) 75%);
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	min-height:100vh;
+}
+
+.container{
+
+	background:  rgba(0,36,26,1);
+	color:#fff;
+	min-width:25rem;
+	height:24rem;
+	font-family: 'Segoe Print',sans-serif;
+
+}
+
+.psw-container{
+	background:rgb(9,121,90);
+	font-size:1.2rem;
+
+}
+.psw-container, .form-control {
+
+	display:flex;
+	justify-content: space-between;
+	margin:0.5rem;
+	padding:0.5rem;	
+}
+
+.form-control {
+	font-size:0.8rem;
+}
+button{
+	cursor:pointer;
+	background:#f6f7a8;
+	color: rgba(0,36,26,1);
+	padding:0.4rem;
+	font-weight: bold;
+	
+}
+.psw-requirement{
+	margin:1.5rem;
+}
+
+.psw-requirement button{
+	display:block;
+	width:100%;
+	font-size:1.2rem;
+	padding:0.6rem;
+	
+}

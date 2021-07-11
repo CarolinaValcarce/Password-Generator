@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link href="style.css" rel="stylesheet"/>
+		<script src="script.js" defer=""></script>
+		<title>PasswordGenerator</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="psw-container">
+				<span id="psw"> gugBiice76743%$7 </span>
+				<button id="clipboard"> Copy </button>
+			</div>
+			<div class="psw-requirement">
+
+				<div class="form-control">
+                    <label for="len">Password Length:</label>
+                    <input id="len" value="15" type="number" min="2" max="30" />
+                </div>
+
+				<div class="form-control">
+					<label for="uppercase" > Contain uppercase letters: </label> 
+					<input id="uppercase" type="checkbox">
+					
+				</div>
+				<div class="form-control">
+					<label for="lowercase" > Contain lowercase letters:</label>
+					<input id="lowercase" type="checkbox">
+					
+				</div>
+				<div class="form-control">
+					<label for="symbols" > Contain symbols: </label>
+					<input id="symbols" type="checkbox">
+				
+				</div>
+				<div class="form-control">
+					<label for="numbers" > Contain numbers: </label>
+					<input id="numbers" type="checkbox">
+					
+				</div>
+				<button id="submit"> Generate password </button>
+			</div>
+		</div>
+	</body>
+</html>
+
